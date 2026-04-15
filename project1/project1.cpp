@@ -38,21 +38,18 @@ void DrawHangman(int mistakes) {
 
     cout << "\n  +---+\n";
     cout << "  |   |\n";
-
     if (mistakes >= 1) cout << "  O   |\n";
     else cout << "      |\n";
-
     if (mistakes == 2) cout << "  |   |\n";
     else if (mistakes == 3) cout << " /|   |\n";
     else if (mistakes >= 4) cout << " /|\\  |\n";
     else cout << "      |\n";
-
     if (mistakes == 5) cout << " /    |\n";
     else if (mistakes >= 6) cout << " / \\  |\n";
     else cout << "      |\n";
-
     cout << "      |\n";
     cout << "=========\n\n";
+
 }
 
 
@@ -249,6 +246,6 @@ int main() {
         }
     }
 
-    cout << "\nДякуємо за гру!\n";
+    cout << "\nДякую за гру!\n";
     return 0;
 }
